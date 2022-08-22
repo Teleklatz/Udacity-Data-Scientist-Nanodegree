@@ -27,7 +27,7 @@ Main observations from the result are:
 
 2. Most accurate model is isolation forest with accuracy of 99.53% with error detecting precision of 17%.
 
-3. Least accurate model was support-vector machine with 70.00% with error detecting precision of 0%.
+3. Least accurate model was support-vector machine with 70.10% with error detecting precision of 0%.
 
 4. Precision can be increased for models LOF and SVM with bigger dataframe samples.
 
