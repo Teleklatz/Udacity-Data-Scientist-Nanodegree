@@ -19,6 +19,15 @@ Objective of this machine learning project is to find:
 1. Predict fraudulent transactions in a given dataset and
 2. Compare different machine learning algorithms to find their efficiency to detect anomalies.
 
-## Code
+## Result
 
-## Use
+Main observations from the result are:
+
+1. All models could detect anomalies with accuracy equal to or higher than 70%.
+
+2. Most accurate model is isolation forest with accuracy of 99.53% with error detecting precision of 17%.
+
+3. Least accurate model was support-vector machine with 70.00% with error detecting precision of 0%.
+
+4. Precision can be increased for models LOF and SVM with bigger dataframe samples.
+
