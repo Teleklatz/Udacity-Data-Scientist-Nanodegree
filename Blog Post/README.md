@@ -1,6 +1,6 @@
 # Credit Card Fraud Detection
 
-**Credit card fruad**  is a widespread financial crime committed in almost all the countries in the world, that has access to digital financial systems. There are numerous ways credit card companies analyse the data of ongoing financial transactions to identify and signle out the suspicious ones. Here, we will use machine learning techniques to identify anomalies in credit card transaction data.
+**Credit card fraud**  is a widespread financial crime committed in almost all the countries in the world, that has access to digital financial systems. There are numerous ways credit card companies analyze the data of ongoing financial transactions to identify and single out the suspicious ones. Here, we will use machine learning techniques to identify anomalies in credit card transaction data.
 
 ## Data
 
@@ -14,10 +14,10 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 
 ## Objective
 
-Objective of this machine learning model is to find:
+Objective of this machine learning project is to find:
 
-1. Predict fradulent transactions in a given dataset
-2. Compare different machine learning algorithms to find their efficiency to detect anomalies
+1. Predict fraudulent transactions in a given dataset and
+2. Compare different machine learning algorithms to find their efficiency to detect anomalies.
 
 ## Code
 
