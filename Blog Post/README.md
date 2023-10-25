@@ -1,33 +1,47 @@
-# Credit Card Fraud Detection
+# Analyzing Munich Airbnb Listings
 
-**Credit card fraud**  is a widespread financial crime committed in almost all the countries in the world, that has access to digital financial systems. There are numerous ways credit card companies analyze the data of ongoing financial transactions to identify and single out the suspicious ones. Here, we will use machine learning techniques to identify anomalies in credit card transaction data.
+The project goal is to analyze AirBnB listings in Munich city using **CRISP-DM** process.
+
+The Cross Industry Standard Process for Data Mining (CRISP-DM) is a process model that serves as the base for a data science process. The process steps are as below:
+
+1. Business understanding
+2. Data understanding
+3. Data preparation
+4. Modeling
+5. Evaluation
+6. Deployment
 
 ## Data
 
-The dataset contains transactions made by credit cards in September 2013 by European cardholders.
+The data of Munich AirBnB listing for 23rd September, 2023 used for this analysis is available in the following site: [link](http://insideairbnb.com/get-the-data.html). There are 2 separate data files used and they are:
 
-This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+- listings: Detailed list of AirBnB booking in 23rd September, 2023 in Munich
+- calendar: Time stamps of the bookings for the same date
 
-It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
+## Questions of Interest
 
-Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
+1) What is the average price of a rental in Munich? 
 
-## Objective
+2) Which month is most expensive and which is least expensive in Munich? 
 
-Objective of this machine learning project is to find:
+3) Which neighborhood is most expensive and which is least expensive in Munich?
 
-1. Predict fraudulent transactions in a given dataset and
-2. Compare different machine learning algorithms to find their efficiency to detect anomalies.
+4) what are the attributes associated with the price of a listing? 
 
 ## Result
 
-Main observations from the result are:
+1) Average price of Airbnb rentals in Munich is 228.79 USD
 
-1. All models could detect anomalies with accuracy equal to or higher than 70%.
+2) Cheapest month for Airbnb rentals in Munich is February and most expensive month is September
 
-2. Most accurate model is isolation forest with accuracy of 99.53% with error detecting precision of 17%.
+3) Cheapest neighborhood for Airbnb rentals in Munich is Milbertshofen-Am Hart and most expensive neighborhood is Au-Haidhausen
 
-3. Least accurate model was support-vector machine with 70.10% with error detecting precision of 0%.
+4. Top 5 amenities available in Munich Airbnb rentals are: Kitchen, Wifi, Essentials, Smoke alarm, Hair dryer
 
-4. Precision can be increased for models LOF and SVM with bigger dataframe samples.
+## Conclusion
 
+In this project, Munich Airbnb housing datasets were explored and analyzed to answer 4 questions of interest using the CRISP-DM methodology. We have followed the process steps to understand context of the project and data, prepared the datasets to define variables and functions that ultimately helped us to find the answers.
+
+An article on this project has been publised in Medium.com (link: )
+
+##Licensing
