@@ -44,4 +44,4 @@ In this project, Munich Airbnb housing datasets were explored and analyzed to an
 
 An article on this project has been publised in Medium.com (link: )
 
-##Licensing
+## Conclusion
