@@ -1,6 +1,6 @@
-# Analyzing Munich Airbnb Listings
+# Want to Visit Munich? Check When to Visit and Where to Stay
 
-The project goal is to analyze AirBnB listings in Munich city using **CRISP-DM** process.
+The project goal is to analyze Airbnb listings in Munich city using CRISP-DM process.
 
 The Cross Industry Standard Process for Data Mining (CRISP-DM) is a process model that serves as the base for a data science process. The process steps are as below:
 
@@ -20,28 +20,28 @@ The data of Munich AirBnB listing for 23rd September, 2023 used for this analysi
 
 ## Questions of Interest
 
-1) What is the average price of a rental in Munich? 
+1) When is it cheapest and when is it most expensive to visit Munich?
 
-2) Which month is most expensive and which is least expensive in Munich? 
+2) Which neighborhood has the cheapest rentals and which neighborhood has the most expensive one?
 
-3) Which neighborhood is most expensive and which is least expensive in Munich?
-
-4) what are the attributes associated with the price of a listing? 
+3) What are the top 5 amenities available in Munich Airbnb rentals?
 
 ## Result
+In this project, Munich housing data of Airbnb rentals has been explored, cleaned and analyzed to find the following results:
 
-1) Average price of Airbnb rentals in Munich is 228.79 USD
-
-2) Cheapest month for Airbnb rentals in Munich is February and most expensive month is September
-
-3) Cheapest neighborhood for Airbnb rentals in Munich is Milbertshofen-Am Hart and most expensive neighborhood is Au-Haidhausen
-
-4. Top 5 amenities available in Munich Airbnb rentals are: Kitchen, Wifi, Essentials, Smoke alarm, Hair dryer
-
-## Conclusion
-
-In this project, Munich Airbnb housing datasets were explored and analyzed to answer 4 questions of interest using the CRISP-DM methodology. We have followed the process steps to understand context of the project and data, prepared the datasets to define variables and functions that ultimately helped us to find the answers.
+- September is the most expensive month to visit Munich and February is the cheapest.
+- Milbertshofen-Am Hart is the cheapest neighborhood in Munich and Au-Haidhausen is the most expensive one.
+- Top 5 amenities available in the Airbnb rentals in Munich are Kitchen, Wifi, Essentials, Smoke alarm and Hairdryer.
 
 An article on this project has been publised in Medium.com (link: )
 
-## Conclusion
+## Licensing, Authors and Acknowledgement
+
+- Data Source:
+    1. http://insideairbnb.com/get-the-data.html
+    2. https://www.t-online.de/leben/reisen/deutschland/id_59089408/oktoberfest-2023-alle-infos-zu-oeffnungszeiten-bierpreis-und-anfahrt-.html
+    3. Munich map: By Maximilian Dörrbecker (Chumwa) - Own work, using OpenStreetMap data for the background, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=18148364
+
+- Acknowledgement: Special thanks for Airbnb for open sourcing the housing data
+
+- License: This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Please refer to Udacity Terms of Service for further information.
