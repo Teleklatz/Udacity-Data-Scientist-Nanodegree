@@ -44,4 +44,4 @@ An article on this project has been publised in Medium.com (link: )
 
 - Acknowledgement: Special thanks for Airbnb for open sourcing the housing data
 
-- License: This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Please refer to Udacity Terms of Service for further information.
+- License: This work is licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). Please refer to Udacity [Terms of Service](https://www.udacity.com/legal) for further information.
