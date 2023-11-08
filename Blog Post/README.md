@@ -33,7 +33,9 @@ In this project, Munich housing data of Airbnb rentals has been explored, cleane
 - Milbertshofen-Am Hart is the cheapest neighborhood in Munich and Au-Haidhausen is the most expensive one.
 - Top 5 amenities available in the Airbnb rentals in Munich are Kitchen, Wifi, Essentials, Smoke alarm and Hairdryer.
 
-An article on this project has been publised in Medium.com (link: )
+## Medium Blog Post
+
+Summarized article on the main findings of this project can be found [here](https://medium.com/@bhuiyan.mrahman01/want-to-visit-munich-check-when-to-visit-and-where-to-stay-f2717521c0be)
 
 ## Licensing, Authors and Acknowledgement
 
